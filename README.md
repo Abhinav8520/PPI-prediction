@@ -55,28 +55,6 @@ pip install pandas biopython numpy
    - Prepare the data for machine learning
    - Perform analysis and predictions
 
-## Key Functions
-
-### Molecular Weight Calculation
-```python
-def molecular_weight(sequence):
-    analysis = ProteinAnalysis(sequence)
-    return analysis.molecular_weight()
-```
-
-### Amino Acid Composition
-```python
-def get_amino_acid_composition(sequence):
-    analysis = ProteinAnalysis(sequence)
-    return analysis.get_amino_acids_percent()
-```
-
-### Aromaticity Calculation
-```python
-def calculate_aromaticity(sequence):
-    analysis = ProteinAnalysis(sequence)
-    return analysis.aromaticity()
-```
 
 ## Data Preprocessing
 The project includes several preprocessing steps:
@@ -85,23 +63,3 @@ The project includes several preprocessing steps:
 3. **Random Shuffling**: Randomizing the order of samples
 4. **Feature Engineering**: Creating new features from protein sequences
 
-## Future Enhancements
-Potential improvements for the project:
-- Implement machine learning models (Random Forest, SVM, Neural Networks)
-- Add more protein features (secondary structure, domain information)
-- Cross-validation and hyperparameter tuning
-- Performance metrics and evaluation
-- Visualization of results
-
-## Contributing
-Feel free to contribute to this project by:
-- Adding new protein features
-- Implementing different ML algorithms
-- Improving the documentation
-- Reporting issues or bugs
-
-## License
-This project is part of a Master's assignment in Bioinformatics.
-
-## Contact
-For questions or suggestions, please refer to the project documentation or course instructor.
